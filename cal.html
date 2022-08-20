@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Assets/cal.css">
+</head>
+<body>
+    
+
+<div class="frame">
+    <input type="text" name="" id="disp">
+    <div class="keys">
+        <div class="row">
+            <button class="num" onclick="clearer()">AC</button>
+            <button class="num" ></button>
+            <button class="num" onclick="mod()">%</button>
+            <button class="num" onclick="divide()">/</button>
+        </div>   
+        
+        <div class="row">
+            <button class="num" onclick="clicker(1)">1</button>
+            <button class="num" onclick="clicker(2)">2</button>
+            <button class="num" onclick="clicker(3)">3</button>
+            <button class="num" onclick="star()">*</button>
+        </div> 
+
+        <div class="row">
+            <button class="num" onclick="clicker(4)">4</button>
+            <button class="num" onclick="clicker(5)">5</button>
+            <button class="num" onclick="clicker(6)">6</button>
+            <button class="num" onclick="sub()">-</button>
+        </div> 
+
+        <div class="row">
+            <button class="num" onclick="clicker(7)">7</button>
+            <button class="num" onclick="clicker(8)">8</button>
+            <button class="num" onclick="clicker(9)">9</button>
+            <button class="num" onclick="add()">+</button>
+        </div> 
+
+        <div class="row">
+            <button class="num" onclick="clicker(0)">0</button>
+            <button class="num" onclick="doublez()">00</button>
+            <button class="num" onclick="dot()">.</button>
+            <button class="num" onclick="equal()">=</button>
+        </div> 
+    </div>
+</div>
+
+<script src="Assets/cal.js"></script>
+
+</body>
+</html>
