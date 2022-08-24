@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    
+    background-color: #3B434B;
     
 }
 #disp{
@@ -35,6 +35,10 @@
     box-shadow: 3px 3px 6px #2C3339, -3px -3px 6px #484B4D ;
     border-radius: 50%;
 }
-#bod{
+/* #bod{
     background-color: #3B434B;
+} */
+
+*{
+    color: #fff;
 }
